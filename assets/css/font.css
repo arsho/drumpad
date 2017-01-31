@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'ROUGD';
+	src: url('./ROUGD.eot');
+	src: local('ROUGD'), url('./ROUGD.woff') format('woff'), url('./ROUGD.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_45100">Text with this font applied</p> */
+.fontsforweb_fontid_45100 {
+	font-family: 'ROUGD' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
