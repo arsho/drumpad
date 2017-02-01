@@ -6,9 +6,12 @@
     margin: 0px;
     padding: 0px;                
 }
+body{
+    font-family: 'ROUGD';    
+}
 .drums{
     width: 100%;
-	height:100vh;
+	height:80vh;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 0px 4px 4px black;
@@ -16,12 +19,26 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.drums_lesson{
+    width: 100%;
+	height:20vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 4px 4px black;
+    background: #0A2848;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
 table{
     margin: 0 auto;
     width: 100%;
     height: 100%;  
     border-collapse: separate;
-    border-spacing: 20px;
+    border-spacing: 5px;       
+}
+table.table_space{
+    border-spacing: 20px;   
 }
 tr{
     width: 100%;
@@ -36,8 +53,7 @@ tr{
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -o-border-radius: 4px;
-    position: relative;
-
+    /*position: relative;*/
     background: #777666;
     border:1px solid #141414;
     box-shadow: 2px 2px 2px 2px black;
@@ -54,7 +70,7 @@ tr{
 	font-size: 40px;
 	color: rgba(255, 255, 255, 0.8);  		
 }
-.drum_pad_hover{
+.lesson:hover, .drum_pad:hover, .drum_pad_hover{
     cursor: pointer;
     background: #0A2848;
     background-image:-webkit-linear-gradient(top, #141414, #0A2848);
@@ -66,10 +82,30 @@ tr{
     -moz-background-size: 3px 3px;
     -webkit-background-size: 3px 3px;
     background-size: 3px 3px;     
-	color: rgba(255, 255, 255, 1);  		
-	
+	color: rgba(255, 255, 255, 1);  			
     -webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;
     -moz-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;
     -o-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;
     box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;
+}
+.lesson{
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: .2em;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: -1px 1px 0px rgba(255, 255, 255, 0.14);
+    text-align: center;
+    border-radius: 3px;
+    background: #555;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15) inset, 
+                0 -20px 100px rgba(0, 0, 0, 0.25) inset, 
+                -3px -2px 5px rgba(0, 0, 0, 0.5);   
+    font-family: 'ROUGD';    
+}
+.center_td{
+    font-size: 24px;
+    text-align: center;
 }

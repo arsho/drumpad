@@ -20,20 +20,44 @@
         <audio src="assets/sounds/Yamaha-RX15-Open-Hi-Hat.wav" id="hihat1"></audio>
         <audio src="assets/sounds/Yamaha-RX15-Closed-Hi-Hat.wav" id="hihat2"></audio>
         <div id="drum_wrapper" class="drums"> 
-            <table>
+            <table class="table_space">
                 <tr>
-                    <td id="cymbal1_pad" class="drum_pad">A</td>
-                    <td id="tom1_pad" class="drum_pad">S</td>
-                    <td id="tom2_pad" class="drum_pad">D</td>
-                    <td id="cymbal2_pad" class="drum_pad">F</td>
+                    <td id="cymbal1_pad" class="drum_pad">A <br><small>(Ride-Cymbal)</small></td>
+                    <td id="tom1_pad" class="drum_pad">S <br><small>(Tom1)</small></td>
+                    <td id="tom2_pad" class="drum_pad">D <br><small>(Tom2)</small></td>
+                    <td id="cymbal2_pad" class="drum_pad">F <br><small>(Crash-Cymbal)</small></td>
                 </tr>
                 <tr>
-                    <td id="bass_pad" class="drum_pad">J</td>
-                    <td id="snare_pad" class="drum_pad">K</td>
-                    <td id="hihat1_pad" class="drum_pad">L</td>
-                    <td id="hihat2_pad" class="drum_pad">;</td>
+                    <td id="bass_pad" class="drum_pad">J <br><small>(Bass)</small></td>
+                    <td id="snare_pad" class="drum_pad">K <br><small>(Snare)</small></td>
+                    <td id="hihat1_pad" class="drum_pad">L <br><small>(Open-Hi-Hat)</small></td>
+                    <td id="hihat2_pad" class="drum_pad">; <br><small>(Closed-Hi-Hat)</small></td>
                 </tr>
             </table>
+        </div>
+        <div class="drums_lesson">
+            <table>
+                <tr>
+                    <td class="lesson" id="two_and_four">
+                        1<br><small>(two and four)</small>
+                    </td>
+                    <td class="lesson" id="four_on_the_floor">
+                        2<br><small>(four on the floor)</small>
+                    </td>
+                    <td class="lesson" id="one_drop">
+                        3<br><small>(one drop)</small>
+                    </td>
+                    <td class="lesson" id="boom_boom_clap">
+                        4<br><small>(boom boom clap)</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="center_td">
+                        DRUMPAD by Shovon<br>
+                        <small>(play drums using keyboard and or with mouse)</small>
+                    </td>
+                </tr>
+            </table>                                
         </div>
         <script src="assets/js/jquery-2.1.0.min.js"></script>
         <script src="assets/js/music.js"></script>
